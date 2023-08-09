@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,300&family=Montserrat:wght@500&display=swap');
+
+
+body{
+    background: rgb(15, 15, 15);
+    margin: 0px;
+    
+    
+}
+
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.7);
+    border-radius: 7px;
+
+    
+}
+
+.btn{
+    
+    
+    border: 10px solid rgb(24, 22, 22);
+    color: rgb(252, 247, 247);
+    background: white ;
+    padding: 20px 30px;
+    font-size: 30px; 
+    cursor: pointer;
+    font-family: Barlow, san-serif;
+    font-weight: 900;
+    background: linear-gradient(to top, #696969, #575757);
+    border-radius: 20px;
+
+}
+.btn:active{
+    transform: translateY(3px);
+    transition: 0.2s;
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+    
+}
+.btn:hover{
+    background: linear-gradient(to bottom, #696969, #575757);
+}
